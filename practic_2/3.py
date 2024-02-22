@@ -1,4 +1,5 @@
-cost_chocolate = input()
-s = float(cost_chocolate.split(" ")[0])
-r = float(cost_chocolate.split(" ")[1])
+# Task_3_Ekin_Viacheslaw
+
+s, r = map(int, input().split())
+
 print(s + r)
